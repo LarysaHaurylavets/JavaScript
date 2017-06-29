@@ -1,0 +1,14 @@
+var animal={
+	name: 'Cat',
+	likeFish: true
+};
+
+var puma=object(animal);
+console.log(puma.name); 
+console.log(puma.likeFish);
+
+function object(o) {
+	function F() {}
+	F.prototype = o;
+	return new F();
+}
