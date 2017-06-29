@@ -1,0 +1,18 @@
+function mix() {
+ var prop, child = {};
+ for (var i = 0; i < arguments.length; i++) {
+	for (prop in arguments[i]) {
+		if (arguments[i].hasOwnProperty(prop)) {
+			child[prop] = arguments[i][prop];
+		}
+	}
+ }
+ return child;
+}; 
+
+var zoo=mix(
+	{lion:'r-r-r', eatMeat: true},
+	{cat: 'meow-meow', paw: 4},
+	{cow: 'mu-mu', giveMilk: true},
+	{pig: 'khryu-khryu'}
+);
