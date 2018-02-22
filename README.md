@@ -1,7 +1,7 @@
 ## JavaScript
 
 ### Task
-Спроектировать объектные модели для заданных предметных областей. Для первой модели реализовать классический паттерн наследования (на выбор: обосновать выбор), используя функции конструкторы. Для второй модели реализовать наследование используя современные паттерны наследования (на выбор: обосновать выбор).
+Design object models for given subject areas. For the first model, implement the classical inheritance pattern (to choose from: justify the selection) using the constructor functions. For the second model, implement inheritance using modern inheritance patterns (to choose from: justify the choice).
 
 ### Version
-Домашние электроприборы. Определить иерархию электроприборов. Включить некоторые в розетку. Посчитать потребляемую мощность. Провести сортировку приборов в квартире на основе одного из параметров. Найти прибор в квартире, соответствующий заданному диапазону параметров.
+Home electrical appliances. Determine the hierarchy of electrical appliances. Plug some into a power outlet. Calculate the power consumption. To sort the devices in the apartment on the basis of one of the parameters. Find a device in the apartment that corresponds to the specified range of parameters.
